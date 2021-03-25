@@ -32,6 +32,10 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Safe Area', SafeAreaSamples()),
               _makeElevatedButton(context, 'Expaded', ExpadedSample()),
               _makeElevatedButton(context, 'Wrap', WrapSample()),
+              _makeElevatedButton(context, 'Animated', AnimatedController()),
+              _makeElevatedButton(context, 'Opacity', OpacitySample()),
+              _makeElevatedButton(
+                  context, 'Future Builder', FutureBuilderSample()),
             ],
           ),
         ),
