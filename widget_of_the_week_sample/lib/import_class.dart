@@ -4,3 +4,8 @@ export 'widget_list/wrap_sample.dart';
 export 'widget_list/animated_controller_sample.dart';
 export 'widget_list/opacity_sample.dart';
 export 'widget_list/future_builder_sample.dart';
+export 'widget_list/fade_transition_sample.dart';
+export 'widget_list/floating_action_button_sample.dart';
+export 'widget_list/page_view_sample.dart';
+export 'widget_list/table_sample.dart';
+export 'widget_list/sliver_app_bar_sample.dart';

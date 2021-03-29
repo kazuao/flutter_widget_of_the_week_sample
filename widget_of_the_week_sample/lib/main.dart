@@ -36,6 +36,13 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Opacity', OpacitySample()),
               _makeElevatedButton(
                   context, 'Future Builder', FutureBuilderSample()),
+              // _makeElevatedButton(
+              //     context, 'Fade Transition', FadeTransitionSample()),
+              _makeElevatedButton(context, 'Floating Action Button',
+                  FloatingActionButtonSample()),
+              _makeElevatedButton(context, 'Page View', PageViewSample()),
+              _makeElevatedButton(context, 'Table', TableSample()),
+              _makeElevatedButton(context, 'SliverAppBar', SliverSample()),
             ],
           ),
         ),
