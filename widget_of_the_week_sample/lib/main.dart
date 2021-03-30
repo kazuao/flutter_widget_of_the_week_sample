@@ -43,6 +43,11 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Page View', PageViewSample()),
               _makeElevatedButton(context, 'Table', TableSample()),
               _makeElevatedButton(context, 'SliverAppBar', SliverSample()),
+              _makeElevatedButton(context, 'Fadein Image', FadeInImageSample()),
+              _makeElevatedButton(
+                  context, 'StreamBuilder', StreamBuilderSample()),
+              _makeElevatedButton(
+                  context, 'Inherited Widget', InheritedWidgetSample()),
             ],
           ),
         ),
