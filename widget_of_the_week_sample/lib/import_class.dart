@@ -12,3 +12,8 @@ export 'widget_list/sliver_app_bar_sample.dart';
 export 'widget_list/fadein_image_sample.dart';
 export 'widget_list/stream_builder_sample.dart';
 export 'widget_list/inherited_widget_sample.dart';
+export 'widget_list/clip_rect_sample.dart';
+export 'widget_list/hero_sample.dart';
+export 'widget_list/fitted_box_sample.dart';
+export 'widget_list/layout_builder_sample.dart';
+export 'widget_list/absorb_pointer_sample.dart';

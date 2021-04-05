@@ -48,6 +48,13 @@ class BodyApp extends StatelessWidget {
                   context, 'StreamBuilder', StreamBuilderSample()),
               _makeElevatedButton(
                   context, 'Inherited Widget', InheritedWidgetSample()),
+              _makeElevatedButton(context, 'ClipRect', ClipRectSample()),
+              // _makeElevatedButton(context, 'Hero', HeroSample()),
+              _makeElevatedButton(context, 'FittedBox', FittedBoxSample()),
+              _makeElevatedButton(
+                  context, 'LayoutBuiler', LayoutBuilderSample()),
+              _makeElevatedButton(
+                  context, 'AbsorbPointer', AbsorbPointerSample()),
             ],
           ),
         ),
