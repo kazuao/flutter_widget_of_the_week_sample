@@ -55,6 +55,9 @@ class BodyApp extends StatelessWidget {
                   context, 'LayoutBuiler', LayoutBuilderSample()),
               _makeElevatedButton(
                   context, 'AbsorbPointer', AbsorbPointerSample()),
+              _makeElevatedButton(context, 'Transform', TransformSample()),
+              _makeElevatedButton(
+                  context, 'Backdrop Filter', BackdropFilterSample()),
             ],
           ),
         ),

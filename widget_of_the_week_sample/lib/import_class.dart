@@ -17,3 +17,6 @@ export 'widget_list/hero_sample.dart';
 export 'widget_list/fitted_box_sample.dart';
 export 'widget_list/layout_builder_sample.dart';
 export 'widget_list/absorb_pointer_sample.dart';
+export 'widget_list/transform_sample.dart';
+export 'widget_list/transform_sample2.dart';
+export 'widget_list/backdrop_filter_sample.dart';
