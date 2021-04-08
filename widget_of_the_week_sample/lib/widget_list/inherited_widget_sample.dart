@@ -4,20 +4,19 @@ import 'package:flutter/material.dart';
 
 // 継承元クラス
 class FrogColor extends InheritedWidget {
+  final Color? color;
+
   const FrogColor({
-    Key key,
-    this.color,
-    this.child,
+    Key? key,
+    required this.color,
+    required Widget child,
   }) : super(key: key, child: child);
 
-  final Color color;
-  final Widget child;
-
   static FrogColor of(BuildContext context) {
-    final FrogColor result =
+    final FrogColor? result =
         context.dependOnInheritedWidgetOfExactType<FrogColor>();
     assert(result != null, 'No FrogColor fond in context');
-    return result;
+    return result!;
   }
 
   @override
@@ -25,7 +24,7 @@ class FrogColor extends InheritedWidget {
 }
 
 class InheritedWidgetSample extends StatelessWidget {
-  const InheritedWidgetSample({Key key}) : super(key: key);
+  const InheritedWidgetSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +46,7 @@ class InheritedWidgetSample extends StatelessWidget {
 }
 
 class MyOtherPage extends StatelessWidget {
-  const MyOtherPage({Key key}) : super(key: key);
+  const MyOtherPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

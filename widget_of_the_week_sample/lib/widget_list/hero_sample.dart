@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 class HeroSample extends StatelessWidget {
-  const HeroSample({Key key}) : super(key: key);
+  const HeroSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class HeroSample extends StatelessWidget {
 }
 
 class HeroTransition extends StatelessWidget {
-  const HeroTransition({Key key}) : super(key: key);
+  const HeroTransition({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +43,7 @@ class HeroTransition extends StatelessWidget {
 }
 
 class HeroNext extends StatelessWidget {
-  const HeroNext({Key key}) : super(key: key);
+  const HeroNext({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

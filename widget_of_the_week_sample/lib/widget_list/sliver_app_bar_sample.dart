@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SliverSample extends StatefulWidget {
-  SliverSample({Key key}) : super(key: key);
+  SliverSample({Key? key}) : super(key: key);
 
   @override
   _SliverSampleState createState() => _SliverSampleState();

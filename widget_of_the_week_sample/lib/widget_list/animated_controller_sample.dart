@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AnimatedController extends StatefulWidget {
-  AnimatedController({Key key}) : super(key: key);
+  AnimatedController({Key? key}) : super(key: key);
 
   @override
   _AnimatedControllerState createState() => _AnimatedControllerState();

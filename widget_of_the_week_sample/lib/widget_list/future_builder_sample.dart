@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FutureBuilderSample extends StatelessWidget {
-  const FutureBuilderSample({Key key}) : super(key: key);
+  const FutureBuilderSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class FutureBuilderSample extends StatelessWidget {
 }
 
 class FutureBuilderStatefulSample extends StatefulWidget {
-  FutureBuilderStatefulSample({Key key}) : super(key: key);
+  FutureBuilderStatefulSample({Key? key}) : super(key: key);
 
   @override
   _FutureBuilderStatefulSampleState createState() =>
@@ -30,7 +30,7 @@ class _FutureBuilderStatefulSampleState
   @override
   Widget build(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.headline2,
+      style: Theme.of(context).textTheme.headline2!,
       textAlign: TextAlign.center,
       child: FutureBuilder(
         future: _calcuration,

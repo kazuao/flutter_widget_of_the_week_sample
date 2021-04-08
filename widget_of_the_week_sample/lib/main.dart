@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'import_class.dart';
+import 'widget_list/import_class.dart';
 
 void main() => runApp(MyApp());
 
@@ -58,6 +58,13 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Transform', TransformSample()),
               _makeElevatedButton(
                   context, 'Backdrop Filter', BackdropFilterSample()),
+              _makeElevatedButton(context, 'Align', AlignSample()),
+              _makeElevatedButton(context, 'Positioned', PositionedSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedBuilder', AnimatedBuilderSample()),
+              _makeElevatedButton(context, 'Dismissible', DismissibleSample()),
+              _makeElevatedButton(context, 'ValueListenableBuilder',
+                  ValueListenableBuilderSample()),
             ],
           ),
         ),

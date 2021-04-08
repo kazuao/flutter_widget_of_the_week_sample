@@ -5,7 +5,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class BackdropFilterSample extends StatelessWidget {
-  const BackdropFilterSample({Key key}) : super(key: key);
+  const BackdropFilterSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

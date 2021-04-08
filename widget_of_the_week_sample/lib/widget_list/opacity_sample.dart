@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class OpacitySample extends StatefulWidget {
-  OpacitySample({Key key}) : super(key: key);
+  OpacitySample({Key? key}) : super(key: key);
 
   @override
   _OpacitySampleState createState() => _OpacitySampleState();

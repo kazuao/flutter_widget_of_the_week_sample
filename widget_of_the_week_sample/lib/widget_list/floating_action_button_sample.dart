@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FloatingActionButtonSample extends StatelessWidget {
-  const FloatingActionButtonSample({Key key}) : super(key: key);
+  const FloatingActionButtonSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

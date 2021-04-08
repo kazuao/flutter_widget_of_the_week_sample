@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 
 class TransformSample2 extends StatelessWidget {
-  Widget child;
-  TransformSample2({Key key, this.child}) : super(key: key);
+  Widget? child;
+  TransformSample2({Key? key, this.child}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

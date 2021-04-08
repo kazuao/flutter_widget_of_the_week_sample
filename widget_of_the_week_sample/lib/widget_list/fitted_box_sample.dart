@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FittedBoxSample extends StatelessWidget {
-  const FittedBoxSample({Key key}) : super(key: key);
+  const FittedBoxSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

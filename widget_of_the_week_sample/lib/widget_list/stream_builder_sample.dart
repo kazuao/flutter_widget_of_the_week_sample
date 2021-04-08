@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 class StreamBuilderSample extends StatelessWidget {
-  const StreamBuilderSample({Key key}) : super(key: key);
+  const StreamBuilderSample({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class StreamBuilderSample extends StatelessWidget {
 }
 
 class StreamStatefulWidget extends StatefulWidget {
-  StreamStatefulWidget({Key key}) : super(key: key);
+  StreamStatefulWidget({Key? key}) : super(key: key);
 
   @override
   _StreamStatefulWidgetState createState() => _StreamStatefulWidgetState();
@@ -31,7 +31,7 @@ class _StreamStatefulWidgetState extends State<StreamStatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.headline2,
+      style: Theme.of(context).textTheme.headline2!,
       textAlign: TextAlign.center,
       child: Container(
         alignment: FractionalOffset.center,

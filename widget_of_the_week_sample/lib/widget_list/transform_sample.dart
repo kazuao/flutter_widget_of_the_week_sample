@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TransformSample extends StatefulWidget {
-  TransformSample({Key key}) : super(key: key);
+  TransformSample({Key? key}) : super(key: key);
 
   @override
   _TransformSampleState createState() => _TransformSampleState();
