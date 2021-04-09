@@ -25,3 +25,5 @@ export 'positioned_sample.dart';
 export 'animated_builder_sample.dart';
 export 'dismissible_sample.dart';
 export 'value_listenable_builder_sample.dart';
+export 'draggable_sample.dart';
+export 'animated_list_sample.dart';
