@@ -27,3 +27,6 @@ export 'dismissible_sample.dart';
 export 'value_listenable_builder_sample.dart';
 export 'draggable_sample.dart';
 export 'animated_list_sample.dart';
+export 'media_query_sample.dart';
+export 'spacer_sample.dart';
+export 'animated_icon_sample.dart';

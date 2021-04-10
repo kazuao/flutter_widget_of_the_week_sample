@@ -68,6 +68,10 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Draggable', DraggableSample()),
               _makeElevatedButton(
                   context, 'AnimatedList', AnimatedListSample()),
+              _makeElevatedButton(context, 'MediaQuery', MediaQuerySample()),
+              _makeElevatedButton(context, 'Spacer', SpacerSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedIcon', AnimatedIconSample()),
             ],
           ),
         ),
