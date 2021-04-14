@@ -72,6 +72,30 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Spacer', SpacerSample()),
               _makeElevatedButton(
                   context, 'AnimatedIcon', AnimatedIconSample()),
+              _makeElevatedButton(context, 'AspectRatio', AspectRatioSample()),
+              _makeElevatedButton(context, 'Placeholder', PlaceholderSample()),
+              _makeElevatedButton(context, 'RichText', RichTextSample()),
+              _makeElevatedButton(
+                  context, 'ReordableListView', ReordableListViewSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedSwitcher', AnimatedSwitcherSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedPositioned', AnimatedPositionedSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedPadding', AnimatedPaddingSample()),
+              _makeElevatedButton(
+                  context, 'IndexedStack', IndexedStackSample()),
+              _makeElevatedButton(
+                  context, 'ConstrainedBox', ConstrainedBoxSample()),
+              _makeElevatedButton(context, 'Stack', StackSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedOpacity', AnimatedOpacitySample()),
+              _makeElevatedButton(context, 'ListView', ListViewSample()),
+              _makeElevatedButton(context, 'ListTile', ListTileSample()),
+              _makeElevatedButton(
+                  context, 'OrdinalyListTile', OrdinalyListTileSample()),
+              _makeElevatedButton(
+                  context, 'SelectableText', SelectableTextSample()),
             ],
           ),
         ),
