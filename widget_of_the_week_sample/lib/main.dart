@@ -96,6 +96,17 @@ class BodyApp extends StatelessWidget {
                   context, 'OrdinalyListTile', OrdinalyListTileSample()),
               _makeElevatedButton(
                   context, 'SelectableText', SelectableTextSample()),
+              _makeElevatedButton(context, 'DataTable', DataTableSample()),
+              _makeElevatedButton(context, 'Slider', SliderSample()),
+              _makeElevatedButton(context, 'AlertDialog', AlertDialogSample()),
+              _makeElevatedButton(
+                  context, 'AnimatedCrossFade', AnimatedCrossFadeSample()),
+              _makeElevatedButton(context, 'DraggableScrollableSheet',
+                  DraggableScrollableSheetSample()),
+              _makeElevatedButton(
+                  context, 'ColorFiltered', ColorFilteredSample()),
+              _makeElevatedButton(
+                  context, 'ToggleButtons', ToggleButtonsSample()),
             ],
           ),
         ),
