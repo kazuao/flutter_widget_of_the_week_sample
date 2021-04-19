@@ -107,6 +107,17 @@ class BodyApp extends StatelessWidget {
                   context, 'ColorFiltered', ColorFilteredSample()),
               _makeElevatedButton(
                   context, 'ToggleButtons', ToggleButtonsSample()),
+              _makeElevatedButton(context, 'CupertinoActionSheet',
+                  CupertinoActionSheetSample()),
+              _makeElevatedButton(context, 'TweenAnimationBuilder',
+                  TweenAnimationBuilderSample()),
+              _makeElevatedButton(context, 'Image', ImageSample()),
+              _makeElevatedButton(context, 'DefaultTabController',
+                  DefaultTabControllerSample()),
+              _makeElevatedButton(context, 'TabBar', TabBarSample()),
+              _makeElevatedButton(context, 'Drawer', DrawerSample()),
+              _makeElevatedButton(
+                  context, 'ListWheelScrollView', ListWheelScrollViewSample()),
             ],
           ),
         ),
