@@ -118,6 +118,14 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(context, 'Drawer', DrawerSample()),
               _makeElevatedButton(
                   context, 'ListWheelScrollView', ListWheelScrollViewSample()),
+              _makeElevatedButton(context, 'ShaderMask', ShaderMaskSample()),
+              _makeElevatedButton(context, 'Indicator', IndicatorSample()),
+              _makeElevatedButton(
+                  context, 'IgnorePointer', IgnorePointerSample()),
+              _makeElevatedButton(
+                  context, 'CheckboxListTile', CheckboxListTileSample()),
+              _makeElevatedButton(context, 'AboutDialog', AboutDialogSample()),
+              _makeElevatedButton(context, 'UrlLauncher', UrlLauncherSample()),
             ],
           ),
         ),
