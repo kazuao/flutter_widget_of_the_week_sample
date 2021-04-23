@@ -19,12 +19,17 @@ class _SliverSampleState extends State<SliverSample> {
         slivers: <Widget>[
           SliverAppBar(
             pinned: _pinned,
+            stretch: true,
             snap: _snap,
             floating: _floating,
             expandedHeight: 160,
             flexibleSpace: const FlexibleSpaceBar(
               title: Text('Sliver App Bar'),
               background: FlutterLogo(),
+              stretchModes: [
+                StretchMode.zoomBackground,
+                StretchMode.blurBackground,
+              ],
             ),
           ),
           const SliverToBoxAdapter(

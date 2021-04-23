@@ -126,6 +126,9 @@ class BodyApp extends StatelessWidget {
                   context, 'CheckboxListTile', CheckboxListTileSample()),
               _makeElevatedButton(context, 'AboutDialog', AboutDialogSample()),
               _makeElevatedButton(context, 'UrlLauncher', UrlLauncherSample()),
+              _makeElevatedButton(
+                  context, 'InteractiveViewer', InteractiveViewerSample()),
+              _makeElevatedButton(context, 'GridView', GridViewSample()),
             ],
           ),
         ),

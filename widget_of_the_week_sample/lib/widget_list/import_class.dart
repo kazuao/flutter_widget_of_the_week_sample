@@ -66,3 +66,5 @@ export 'ignore_pointer_sample.dart';
 export 'checkbox_list_tile_sample.dart';
 export 'about_dialog_sample.dart';
 export 'url_launcher_sample.dart';
+export 'interactive_viewer_sample.dart';
+export 'grid_view_sample.dart';
