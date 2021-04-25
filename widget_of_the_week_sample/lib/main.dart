@@ -129,6 +129,15 @@ class BodyApp extends StatelessWidget {
               _makeElevatedButton(
                   context, 'InteractiveViewer', InteractiveViewerSample()),
               _makeElevatedButton(context, 'GridView', GridViewSample()),
+              _makeElevatedButton(
+                  context, 'SwitchListTile', SwitchListTileSample()),
+              _makeElevatedButton(context, 'DeviceInfo', DeviceInfoSample()),
+              _makeElevatedButton(
+                  context, 'PhysicalModel', PhysicalModelSample()),
+              _makeElevatedButton(context, 'RotatedBox', RotatedBoxSample()),
+              _makeElevatedButton(
+                  context, 'ExpansionPanelList', ExpansionPanelListSample()),
+              _makeElevatedButton(context, 'Scrollbar', ScrollbarSample()),
             ],
           ),
         ),
